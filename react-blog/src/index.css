@@ -1,0 +1,42 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: green;
+   }
+   .create_form input{
+       width:300px ;
+       padding:10px ;
+       border: 2px solid white;
+       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+       outline:none;
+   } .create_form button{
+       padding: 10px;
+       background-color:green;
+       color: white;
+       
+   }.task{
+    display: flex;
+    align-items: center;
+    width: 345px;
+    justify-content: space-between;
+    background-color:green;
+    color: white;
+    height: 45px;
+    padding: 2px 5px 2px 5px;
+    margin-top: 5px;
+} .checkbox{
+    display: flex;
+    align-items: center;
+}.line_through{
+text-decoration: line-through;
+}
+.checkbox .icon {
+margin-right: 5px;
+font-size: 15px;
+} .task div span{
+    margin:0px 5px 0px 4px 
+}
+ .task div .icon{
+    cursor: pointer;
+}
